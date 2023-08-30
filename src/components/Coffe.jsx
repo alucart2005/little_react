@@ -6,9 +6,8 @@ export function Coffe() {
   };
 
   return <div>
-    <h1>{data.name}</h1>
-    <h2>{data.price}</h2>
-    <h3>{data.id}</h3>
+    <h1>{data.name}  
+    <span>- Price: {data.price} </span> - id: <span>{data.id}</span></h1>
   </div>;
   // const hot=false;
   // return (<h1>{hot ? "Hot Coffe" : "Cold Coffe"}</h1>)

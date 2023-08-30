@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Coffe } from './components/Coffe';
 import Users from './components/Users';
 //import App from './App';
 
@@ -9,8 +8,10 @@ import Users from './components/Users';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Coffe />
-    <Users />
+    <Users name="Napoleon" age={2}/>
+    <Users name="Solmeira"/>
+    <Users name="Andres"/>
+    <Users name="Lina"/>
   </React.StrictMode>
 );
 

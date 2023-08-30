@@ -1,8 +1,6 @@
-function Users() {
+function Users(props) {
   return (
-    <div>
-      <h1>Users</h1>
-    </div>
+      <h1>I'm user {props.name} {props.age}</h1>
   );
 }
 
