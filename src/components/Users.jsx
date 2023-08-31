@@ -1,7 +1,10 @@
-function Users(props) {
+export function Users({name, age, adress}) {
   return (
-      <h1>I'm user {props.name} {props.age}</h1>
+    <div>
+      <h1>I'm user {name}</h1>
+      <h1>I'm {age} years old 😂</h1>
+      <h1>I live in {adress.street} {adress.city}, {adress.country}💣</h1>
+    </div>
   );
 }
 
-export default Users;

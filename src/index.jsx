@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Users from './components/Users';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import {Users} from "./components/Users";
 //import App from './App';
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Users name="Napoleon" age={2}/>
-    <Users name="Solmeira"/>
-    <Users name="Andres"/>
-    <Users name="Lina"/>
+    <Users name="Napoleon" 
+    age={2} adress={{street:"Calle 13", city:"Medellin", country:"Colombia"}}/>
   </React.StrictMode>
 );
 
