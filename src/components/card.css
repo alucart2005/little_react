@@ -1,0 +1,16 @@
+.card{
+  background-color: rgb(116, 40, 109);
+  color: white;
+  font-weight: 800;
+  padding: 20px;
+}
+.on{
+  background-color: rgb(69, 152, 65);
+  color: rgb(116, 18, 113);
+  padding: 10px;
+}
+.off{
+  background-color: rgb(219, 195, 124);
+  color: rgb(143, 36, 36);
+  padding: 10px;
+}

@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import {Users} from "./components/Users";
+import { Card } from "./components/Card";
 //import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Users name="Napoleon" 
-    age={2} adress={{street:"Calle 13", city:"Medellin", country:"Colombia"}}/>
+    <Card />
+    <Card estate={true}/>
+    <Card estate={false}/>
+    <Card estate={true}/>
+    <Card estate={false}/>
+
   </React.StrictMode>
 );
 
