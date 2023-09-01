@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Card3 } from "./components/Card3";
+import { Container } from "./components/Container";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Card3/>
+    <Container/>
   </React.StrictMode>
 );
 
