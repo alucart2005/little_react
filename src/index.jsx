@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Text3 } from "./components/Text3";
-//import App from './App';
+import { Card3 } from "./components/Card3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Text3 />
+    <Card3/>
   </React.StrictMode>
 );
 
