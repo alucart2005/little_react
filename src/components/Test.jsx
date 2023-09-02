@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./card.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Test() {
   const [likes, setLikes] = useState(100);
@@ -13,8 +13,8 @@ export function Test() {
   };
   const changeTheme = () => {
     setTheme(!theme);
-    console.log(theme);
   };
+  useEffect(giveLikes,[]) //[] how many times it run
   return (
     <div className={"card" + " " + (theme ? "on" : "off")}>
       <Title>Likes {likes}</Title>
