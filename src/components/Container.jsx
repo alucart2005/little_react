@@ -1,12 +1,12 @@
-import { Item, SecondItem } from "./Item";
+import Item from "./Item";
+import { SecondItem, ThirdComponent } from "./Item";
 
 export function Container() {
   return (
     <div>
-      <Item/>
-      <SecondItem/>
+      <Item />
+      <SecondItem />
+      <ThirdComponent/>
     </div>
   );
-
 }
-
